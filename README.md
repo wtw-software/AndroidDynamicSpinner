@@ -1,6 +1,9 @@
 AndroidDynamicSpinner
 =====================
 
+
+![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot1.png)
+
 ## Styling
 
 The delete icon in the spinner may be replaced by an icon of your choice. First add a style to your theme:
