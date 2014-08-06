@@ -2,7 +2,7 @@ AndroidDynamicSpinner
 =====================
 
 
-![](./screenshot1.png =250x)
+![](./screenshot1.png =250x100)
 
 ![](./screenshot2.png =250x)
 
