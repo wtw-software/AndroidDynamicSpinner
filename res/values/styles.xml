@@ -9,4 +9,7 @@
         <item name="ds_deleteItemIcon">@drawable/dynamic_item_remove</item>
     </style>
 
+    <style name="clickable">
+        <item name="android:background">@null</item>
+    </style>
 </resources>

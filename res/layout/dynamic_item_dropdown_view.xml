@@ -27,10 +27,10 @@
             android:contentDescription="@null"/>
 
     <ImageButton
+            style="@style/clickable"
             android:id="@+id/delete_button"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:contentDescription="@string/delete_item"
-            android:background="?android:attr/selectableItemBackground"/>
+            android:contentDescription="@string/delete_item"/>
 
 </LinearLayout>
