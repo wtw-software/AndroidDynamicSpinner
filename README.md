@@ -18,7 +18,7 @@ AndroidDynamicSpinner
 ```MyItemSpinnerAdapter extends DynamicSpinnerAdapter<MyItemType>```  
 The adapter provides custom selected and dropdown views for your items. 
 1. Add items to the adapter (standard procedure), and ddd the adapter to the spinner.
-1. Set/implement the dynamic spinner listener. This handles clicks on items, delete button and add button.  
+1. Set/implement the dynamic spinner listener. This handles clicks on items, delete button and add button.
 ```myItemSpinner.setDynamicSpinnerListener(myListener)```
 1. Implement callback required by listener. onItemDelete, onItemSelected, onItemAdd. 
 
