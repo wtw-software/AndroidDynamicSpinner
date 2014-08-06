@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_item">Delete</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="no_item_selected">No item selected</string>
+</resources>

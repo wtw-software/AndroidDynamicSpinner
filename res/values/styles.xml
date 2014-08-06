@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DynamicSpinnerTheme" parent="android:Theme">
+        <item name="ds_dynamicSpinnerStyle">@style/Theme.DynamicSpinnerStyle</item>
+    </style>
+
+    <style name="Theme.DynamicSpinnerStyle" parent="android:Widget.Spinner">
+        <item name="ds_deleteItemIcon">@drawable/dynamic_item_remove</item>
+    </style>
+
+</resources>
