@@ -2,9 +2,9 @@ AndroidDynamicSpinner
 =====================
 
 
-![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot1.png =250x)
+![](screenshot1.png =250x)
 
-![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot2.png =250x)
+![](screenshot2.png =250x)
 
 ## Theming
 
