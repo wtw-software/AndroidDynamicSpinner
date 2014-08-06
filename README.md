@@ -15,12 +15,12 @@ AndroidDynamicSpinner
 1. Subclass DynamicSpinner and set the item generic type.  
 ```MyItemSpinner extends DynamicSpinner<MyItemType>```
 1. Subclass DynamicSpinnerAdapter, set generic type (same as above), and override the methods required.  
-```MyItemSpinnerAdapter extends DynamicSpinnerAdapter<MyItemType>```  
+```MyItemSpinnerAdapter extends DynamicSpinnerAdapter<MyItemType> ```  
 The adapter provides custom selected and dropdown views for your items. 
 1. Add items to the adapter (standard procedure), and ddd the adapter to the spinner.
 1. Setimplement the dynamic spinner listener. This handles clicks on items, delete button and add button.  
-```myItemSpinner.setDynamicSpinnerListener myListener ```
-1. Implement callback required by listener. onItemDelete, onItemSelected, onItemAdd. 
+```myItemSpinner.setDynamicSpinnerListener(myListener) ```
+1. Implement callback required by listener. (onItemDelete, onItemSelected, onItemAdd). 
 
 ## Screenshots
 
