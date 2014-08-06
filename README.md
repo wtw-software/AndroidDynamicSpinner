@@ -2,7 +2,7 @@ AndroidDynamicSpinner
 =====================
 
 
-![](./screenshot1.png) ![](./screenshot243.png)
+![](./screenshot1.png) ![](./screenshot2.png)
 
 ## Theming
 
