@@ -2,7 +2,7 @@ AndroidDynamicSpinner
 =====================
 
 
-![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot.png)
+![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot1.png)
 
 ![](https://github.com/wtw-software/AndroidDynamicSpinner/blob/master/screenshot2.png)
 
