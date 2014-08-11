@@ -1,4 +1,4 @@
-package no.wtw.android.dynamicspinner.view;
+package no.wtw.android.dynamicspinner.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
