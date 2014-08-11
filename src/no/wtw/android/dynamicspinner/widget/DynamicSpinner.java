@@ -13,7 +13,8 @@ import no.wtw.android.dynamicspinner.listener.DynamicSpinnerListener;
 public class DynamicSpinner<T> extends Spinner implements DynamicSpinnerAdapter.DynamicSpinnerInternalListener<T> {
 
     private static final String TAG = DynamicSpinner.class.getSimpleName();
-    DynamicSpinnerListener<T> listener;
+    private DynamicSpinnerListener<T> listener;
+    private boolean isFirstSelection = true;
 
     public DynamicSpinner(final Context context) {
         super(context);
@@ -26,17 +27,22 @@ public class DynamicSpinner<T> extends Spinner implements DynamicSpinnerAdapter.
     }
 
     private void init() {
+
         setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @SuppressWarnings("unchecked")
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (listener != null) {
-                    if (position == getCount() - 1) {
-                        Log.d(TAG, "Adding an item");
-                        listener.onItemAdd();
+                    if (isFirstSelection) {
+                        isFirstSelection = false;
                     } else {
-                        Log.d(TAG, "Selected an item");
-                        listener.onItemSelected((T) getItemAtPosition(position));
+                        if (position == getCount() - 1) {
+                            Log.d(TAG, "Adding an item");
+                            listener.onItemAdd();
+                        } else {
+                            Log.d(TAG, "Selected an item");
+                            listener.onItemSelected((T) getItemAtPosition(position));
+                        }
                     }
                 }
             }
@@ -75,7 +81,11 @@ public class DynamicSpinner<T> extends Spinner implements DynamicSpinnerAdapter.
     @SuppressWarnings("unchecked")
     @Override
     public T getSelectedItem() {
-        return (T) getAdapter().getItem(getSelectedItemPosition());
+        try {
+            return (T) getAdapter().getItem(getSelectedItemPosition());
+        } catch (IndexOutOfBoundsException e) {
+            return null;
+        }
     }
 
     @Override
