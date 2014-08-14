@@ -13,4 +13,5 @@
         android:singleLine="true"
         android:textStyle="italic"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/spinner_text_style"
         android:text="@string/no_item_selected"/>

@@ -12,4 +12,5 @@
         android:textStyle="italic"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center_vertical"
+        style="@style/spinner_text_style"
         android:text="@string/add_new_item"/>
