@@ -20,7 +20,7 @@
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>wtw-maven-repo</id>
-            <url>scp://maven.wtw.no/srv/maven/</url>
+            <url>sftp://maven.wtw.no/srv/maven/</url>
         </repository>
     </distributionManagement>
 
