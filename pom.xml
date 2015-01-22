@@ -6,8 +6,8 @@
 
     <groupId>no.wtw.android</groupId>
     <artifactId>android-dynamic-spinner</artifactId>
-    <version>1.0</version>
-    <packaging>apklib</packaging>
+    <version>1.1</version>
+    <packaging>aar</packaging>
     <name>AndroidDynamicSpinner</name>
 
     <scm>
