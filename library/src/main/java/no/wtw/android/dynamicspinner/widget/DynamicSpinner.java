@@ -28,7 +28,7 @@ public class DynamicSpinner<T> extends Spinner implements DynamicSpinnerAdapter.
 
     private void init() {
 
-        setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        setOnItemSelectedListener(new OnItemSelectedListener() {
             @SuppressWarnings("unchecked")
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
