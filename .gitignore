@@ -9,6 +9,7 @@ lt application files
 *.class
 
 # generated files
+.gradle/
 bin/
 gen/
 gen-aa/

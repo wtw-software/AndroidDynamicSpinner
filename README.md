@@ -1,14 +1,7 @@
 AndroidDynamicSpinner
 =====================
 
-```
-<dependency>
-  <groupId>no.wtw.android</groupId>
-  <artifactId>android-dynamic-spinner</artifactId>
-  <type>apklib</type>
-  <version>xxx</version>
-</dependency>
-```
+[![](https://jitpack.io/v/wtw-software/AndroidDynamicSpinner.svg)](https://jitpack.io/#wtw-software/AndroidDynamicSpinner)
 
 ## Usage
 
